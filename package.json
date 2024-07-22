@@ -1,0 +1,22 @@
+{
+  "name": "email_url_validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "ssl-checker": "^2.0.10",
+    "whois": "^2.14.2",
+    "whois-json": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
